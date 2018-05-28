@@ -34,6 +34,7 @@ user = gets.chomp
 player = input_to_index(user)
  if valid_move?(board,player)
    move(board,player)
+   display_board(board)
    else
 turn(board)
 end
