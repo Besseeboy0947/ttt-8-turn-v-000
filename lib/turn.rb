@@ -33,7 +33,6 @@ puts "Please enter 1-9:"
 user = gets.chomp
 player = input_to_index(user)
  if valid_move?(board,player)
- end
    move(board,player)
    else
 turn(board)
@@ -41,4 +40,3 @@ end
   
 
 
-end
