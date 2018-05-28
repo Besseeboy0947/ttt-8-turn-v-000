@@ -37,6 +37,8 @@ player = input_to_index(user)
    else
 turn(board)
 end
+
+end
   
 
 
